@@ -20,15 +20,23 @@ import Form from './components/Form';
 import LifecycleA from './components/LifecycleA';
 import FragmentDemo from './components/FragmentDemo';
 import Table from './components/Table';
-
-
+import PureComp from './components/PureComp';
+import ParentComp from './components/ParentComp';
+import RefsDemo from './components/RefsDemo';
+import FocusInput from './components/FocusInput';
+import FRParentInput from './components/FRParentInput';
 
 function App() {  return (
     <div className="App">
+      <FRParentInput />
+      <FocusInput />
+      {/* <RefsDemo /> */}
+      {/* <ParentComp /> */}
+      {/* <PureComp/>
       <LifecycleA/>
-      <Table />
+      <Table /> */}
       {/* <Form /> */}
-      <FragmentDemo/>
+      {/* <FragmentDemo/> */}
       {/* <h1 className='error'>Error</h1>
       <h1 className={styles.success}>Success</h1>
       <Stylesheet primary={true}/>
